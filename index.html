@@ -112,7 +112,7 @@
       // the canvas DOM size and WebGL render target sizes yourself.
       // config.matchWebGLToCanvasSize = false;
 
-      /*
+      
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
 
@@ -124,7 +124,7 @@
 
         // To lower canvas resolution on mobile devices to gain some
         // performance, uncomment the following line:
-        // config.devicePixelRatio = 1;
+       config.devicePixelRatio = 1;
 
         canvas.style.width = window.innerWidth + 'px';
         canvas.style.height = window.innerHeight + 'px';
@@ -135,7 +135,7 @@
         canvas.style.width = "1280px";
         canvas.style.height = "720px";
       }
-      */
+        
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
